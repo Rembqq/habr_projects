@@ -1,3 +1,5 @@
+package Basics;
+
 public class Task_1_2 {
     public static void main(String[] args) {
         //1st method

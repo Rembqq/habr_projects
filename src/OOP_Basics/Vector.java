@@ -1,7 +1,6 @@
-package Task_2_0;
+package OOP_Basics;
 
-import java.util.Random;
-
+    // Task 2_0
 public class Vector {
     // Constructor
     public Vector(double _x, double _y, double _z)

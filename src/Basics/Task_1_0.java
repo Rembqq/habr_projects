@@ -1,3 +1,5 @@
+package Basics;
+
 public class Task_1_0 {
     public static void main(String[] args) {
         int[] arr = new int[10];
