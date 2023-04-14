@@ -19,23 +19,18 @@ public class Random_Weight {
             overall_weight += weight[i];
         }
         r_num = (int)(Math.random() * overall_weight + 1);
-        System.out.println(r_num);
+        System.out.println("Random token: " + r_num);
         int current_weight = 0;
-        //comparing random num to that weight(counter) where it overflowed overall_weight
+        //comparing random num to that weight(counter) where it outranged overall_weight
         for(int i = 0; i < weight.length; ++i)
         {
             current_weight += weight[i];
             if(current_weight >= r_num)
             {
+                System.out.print("Random num: ");
                 return val[i];
             }
         }
         return -1;
-    }
-    //
-    @Override
-    public String toString()
-    {
-        return "";
     }
 }
